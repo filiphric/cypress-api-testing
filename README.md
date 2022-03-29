@@ -178,7 +178,7 @@ Changes details of a list with given `listId`.
 **example request**
 ```json
 {
-  "title": "renamed list"
+  "name": "renamed list"
 }
 
 ```
@@ -197,7 +197,7 @@ Creates a new card
 {
   "boardId": {boardId}, // required
   "listId": {listId}, // required
-  "title": "buy milk"
+  "name": "buy milk"
 }
 
 ```
